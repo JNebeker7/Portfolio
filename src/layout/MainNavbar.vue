@@ -51,7 +51,7 @@
                         </li>
                         <li>
                           <a
-                            href="https://demos.creative-tim.com/vue-material-kit/documentation/"
+                            href="#"
                           >
                             <i class="material-icons">content_paste</i>
                             <p>Documentation</p>
@@ -64,7 +64,7 @@
               </li>
 
               <md-list-item
-                href="https://demos.creative-tim.com/vue-material-kit/documentation/"
+                href="#"
                 target="_blank"
                 v-if="showDownload"
               >
@@ -122,7 +122,7 @@
               </li>
 
               <md-list-item
-                href="https://twitter.com/CreativeTim"
+                href="#"
                 target="_blank"
               >
                 <i class="fab fa-twitter"></i>
@@ -132,7 +132,7 @@
                 >
               </md-list-item>
               <md-list-item
-                href="https://www.facebook.com/CreativeTim"
+                href="#"
                 target="_blank"
               >
                 <i class="fab fa-facebook-square"></i>
@@ -142,7 +142,7 @@
                 >
               </md-list-item>
               <md-list-item
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="#"
                 target="_blank"
               >
                 <i class="fab fa-instagram"></i>
