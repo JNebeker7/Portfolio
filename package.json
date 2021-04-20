@@ -9,7 +9,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "dev": "npm run serve",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "3.5.0",
@@ -35,6 +36,7 @@
     "prettier": "1.19.1",
     "sass": "1.23.7",
     "sass-loader": "8.0.0",
-    "vue-template-compiler": "2.6.10"
+    "vue-template-compiler": "2.6.10",
+    "execa": "latest"
   }
 }
