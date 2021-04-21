@@ -26,13 +26,21 @@
 
       <div class="md-layout">
         <div class="md-layout-item md-size-50 md-small-size-100">
-1
+
+          <div class="img-comtainer">
+            <div class="box box1"></div>
+          </div>
+
         </div>
         <div class="md-layout-item md-size-50 md-small-size-100">
-2
+
+          <div class="img-comtainer">
+            <div class="box box1"></div>
+          </div>
 
         </div>
       </div>
+      
 
 
 
@@ -151,9 +159,6 @@ export default {
 </script>
 <style lang="scss">
 
-#banner-gradient {
-  
-}
 .section-download {
   .md-button + .md-button {
     margin-left: 5px;
@@ -164,5 +169,20 @@ export default {
   .btn-container {
     display: flex;
   }
+}
+
+.img-comtainer .box {
+  width: 480px;
+  height: 480px;
+  background-color: #000;
+  background-position: top;
+  transition: ease-in-out 5s;
+}
+.img-comtainer .box.box1 {
+  background: url("~@/assets/img/Kara.jpg");
+  background-size: cover;
+}
+.img-comtainer .box:hover {
+  background-position: bottom;
 }
 </style>
