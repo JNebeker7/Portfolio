@@ -1,13 +1,9 @@
 <template>
   <div class="wrapper">
-    <parallax class="page-header header-filter" :style="headerStyle">
+    <parallax class="page-header header-filter" :style="headerStyle" id="banner-gradient">
       <div class="md-layout">
         <div class="md-layout-item">
           <div class="image-wrapper">
-            <img :src="leaf4" alt="leaf4" class="leaf4" v-show="leafShow" />
-            <!-- <img :src="leaf3" alt="leaf3" class="leaf3" v-show="leafShow" /> -->
-            <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" />
-            <!-- <img :src="leaf1" alt="leaf1" class="leaf1" v-show="leafShow" /> -->
             <div class="brand">
               <h1>Jared R Nebeker</h1>
               <h3>Portfolio</h3>
@@ -23,13 +19,24 @@
             <div
               class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
             >
-              <h2 class="title text-center">Let's talk</h2>
-              <h5 class="description">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              </h5>
+              <h2 class="title text-center">Example Work</h2>
             </div>
           </div>
-          <div class="features text-center">
+
+
+      <div class="md-layout">
+        <div class="md-layout-item md-size-50 md-small-size-100">
+1
+        </div>
+        <div class="md-layout-item md-size-50 md-small-size-100">
+2
+
+        </div>
+      </div>
+
+
+
+          <!-- <div class="features text-center">
             <div class="md-layout">
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
@@ -64,7 +71,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
+
+
         </div>
       </div>
     </div>
@@ -99,35 +108,7 @@ export default {
   props: {
     image: {
       type: String,
-      default: require("@/assets/img/vue-mk-header.jpg")
-    },
-    leaf4: {
-      type: String,
-      default: require("@/assets/img/leaf4.png")
-    },
-    leaf3: {
-      type: String,
-      default: require("@/assets/img/leaf3.png")
-    },
-    leaf2: {
-      type: String,
-      default: require("@/assets/img/leaf2.png")
-    },
-    leaf1: {
-      type: String,
-      default: require("@/assets/img/leaf1.png")
-    },
-    signup: {
-      type: String,
-      default: require("@/assets/img/city.jpg")
-    },
-    landing: {
-      type: String,
-      default: require("@/assets/img/landing.jpg")
-    },
-    profile: {
-      type: String,
-      default: require("@/assets/img/profile.jpg")
+      default: require("@/assets/img/banner.jpg")
     }
   },
   data() {
@@ -150,7 +131,7 @@ export default {
   computed: {
     headerStyle() {
       return {
-        backgroundImage: `url(${this.image})`
+        backgroundImage: `linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(${this.image})`
       };
     },
     signupImage() {
@@ -169,6 +150,10 @@ export default {
 };
 </script>
 <style lang="scss">
+
+#banner-gradient {
+  
+}
 .section-download {
   .md-button + .md-button {
     margin-left: 5px;
