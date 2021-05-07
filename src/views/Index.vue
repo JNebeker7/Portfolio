@@ -19,7 +19,7 @@
             <div
               class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
             >
-              <h2 class="title text-center">Example Work</h2>
+              <h2 class="title text-center">Example Designs</h2>
             </div>
           </div>
 
@@ -32,12 +32,75 @@
           </div>
 
         </div>
+
         <div class="md-layout-item md-size-50 md-small-size-100">
 
           <div class="img-comtainer">
-            <div class="box box1"></div>
+            <div class="box box2"></div>
           </div>
 
+        </div>
+
+        <div class="md-layout-item md-size-50 md-small-size-100">
+
+          <div class="img-comtainer">
+            <div class="box box3"></div>
+          </div>
+
+        </div>
+
+        <div class="md-layout-item md-size-50 md-small-size-100">
+
+          <div class="img-comtainer">
+            <div class="box box4"></div>
+          </div>
+
+        </div>
+
+        <div class="md-layout-item md-size-50 md-small-size-100">
+
+          <div class="img-comtainer">
+            <div class="box box5"></div>
+          </div>
+
+        </div>
+
+        <div class="md-layout-item md-size-50 md-small-size-100">
+
+          <div class="img-comtainer">
+            <div class="box box6"></div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="md-layout">
+        <div
+          class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
+        >
+          <h2 class="title text-center">Example Code</h2>
+        </div>
+      </div>
+
+      <div class="md-layout" style="text-align: center; margin-bottom: 25px;">
+        <div class="md-layout-item">
+          <div class="image-wrapper">
+          
+
+            <img src="~@/assets/img/bs.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="md-layout" style="text-align: center;">
+        <div class="md-layout-item">
+          <div class="image-wrapper">
+          
+
+            <img src="~@/assets/img/code.png" />
+          </div>
         </div>
       </div>
       
@@ -177,9 +240,35 @@ export default {
   background-color: #000;
   background-position: top;
   transition: ease-in-out 5s;
+  margin-bottom: 25px;
+  box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 15%);
 }
 .img-comtainer .box.box1 {
   background: url("~@/assets/img/Kara.jpg");
+  background-size: cover;
+}
+.img-comtainer .box.box2 {
+  background: url("~@/assets/img/Iconic.jpg");
+  background-size: cover;
+}
+.img-comtainer .box.box3 {
+  background: url("~@/assets/img/Infused.jpg");
+  background-size: cover;
+}
+.img-comtainer .box.box4 {
+  background: url("~@/assets/img/Pretty.jpg");
+  background-size: cover;
+}
+.img-comtainer .box.box5 {
+  background: url("~@/assets/img/Uncle.jpg");
+  background-size: cover;
+}
+.img-comtainer .box.box6 {
+  background: url("~@/assets/img/Beewise.jpg");
+  background-size: cover;
+}
+.img-comtainer .box.box7 {
+  background: url("~@/assets/img/bs.png");
   background-size: cover;
 }
 .img-comtainer .box:hover {
