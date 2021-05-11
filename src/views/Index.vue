@@ -29,6 +29,9 @@
 
           <div class="img-comtainer">
             <div class="box box1"></div>
+            <a href="https://karamullane.com/" target="_blank">
+            <button class="portfolio-btn" >Kara Mullane</button>
+            </a>
           </div>
 
         </div>
@@ -37,6 +40,9 @@
 
           <div class="img-comtainer">
             <div class="box box2"></div>
+            <a href="https://iconicnutritionsupplements.com/" target="_blank">
+            <button class="portfolio-btn" >Iconic Nutrition</button>
+            </a>
           </div>
 
         </div>
@@ -45,6 +51,9 @@
 
           <div class="img-comtainer">
             <div class="box box3"></div>
+            <a href="https://infusedreleaf.com/" target="_blank">
+            <button class="portfolio-btn" >Infused ReLeaf</button>
+            </a>
           </div>
 
         </div>
@@ -53,6 +62,9 @@
 
           <div class="img-comtainer">
             <div class="box box4"></div>
+            <a href="https://prettykinz.com/" target="_blank">
+            <button class="portfolio-btn" >Pretty Kinz</button>
+            </a>
           </div>
 
         </div>
@@ -61,6 +73,9 @@
 
           <div class="img-comtainer">
             <div class="box box5"></div>
+            <a href="https://uncledelspettreats.com/" target="_blank">
+            <button class="portfolio-btn" >Uncle Del's</button>
+            </a>
           </div>
 
         </div>
@@ -69,11 +84,40 @@
 
           <div class="img-comtainer">
             <div class="box box6"></div>
+            <a href="https://beewiseorganics.com/" target="_blank">
+            <button class="portfolio-btn" >Bee Wise Organics</button>
+            </a>
           </div>
 
         </div>
 
 
+      </div>
+
+      <div class="md-layout">
+        <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
+          <h2 class="title text-center">More websites</h2>
+            <a href="https://thereeftanning.com/" target="_blank">
+              <button class="portfolio-btn" >The Reef Tanning</button>
+            </a>
+            <p>Client wanted this exact layout. I got to explore the wordpress divi library to make it happen. This website is neat
+              in that you can flip the hopepage on its back and it's still indexable -- Tab module.
+            </p>
+
+            <a href="http://devhfb.com/xtcatlanta/" target="_blank">
+              <button class="portfolio-btn" >XTC Atlanta</button>
+            </a>
+            <p>Client loved the scrolling banner and menu. Client also loved the footer.</p>
+            
+            <a href="https://prettykinz.com/collections/tops-1" target="_blank">
+              <button class="portfolio-btn" >Pretty Kinz</button>
+            </a>
+            <p>I like this website because it playes into the logo (theme)(logo) from header to footer. Its one of
+              of my best.
+            </p>
+
+        </div>
+        
       </div>
 
       <div class="md-layout">
@@ -273,5 +317,16 @@ export default {
 }
 .img-comtainer .box:hover {
   background-position: bottom;
+}
+.portfolio-btn {
+  width: 100%;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.portfolio-btn:hover {
+  cursor: pointer;
 }
 </style>
