@@ -109,7 +109,7 @@
             </a>
             <p>Client loved the scrolling banner and menu. Client also loved the footer.</p>
             
-            <a href="https://prettykinz.com/collections/tops-1" target="_blank">
+            <a href="https://prettykinz.com/" target="_blank">
               <button class="portfolio-btn" >Pretty Kinz</button>
             </a>
             <p>I like this website because it playes into the logo (theme)(logo) from header to footer. Its one of
