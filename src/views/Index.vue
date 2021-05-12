@@ -103,11 +103,6 @@
             <p>Client wanted this exact layout. I got to explore the wordpress divi library to make it happen. This website is neat
               in that you can flip the hopepage on its back and it's still indexable -- Tab module.
             </p>
-
-            <a href="http://devhfb.com/xtcatlanta/" target="_blank">
-              <button class="portfolio-btn" >XTC Atlanta</button>
-            </a>
-            <p>Client loved the scrolling banner and menu. Client also loved the footer.</p>
             
             <a href="https://prettykinz.com/" target="_blank">
               <button class="portfolio-btn" >Pretty Kinz</button>
