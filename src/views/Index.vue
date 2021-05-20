@@ -6,7 +6,7 @@
           <div class="image-wrapper">
             <div class="brand">
               <h1>Jared R Nebeker</h1>
-              <h3>Portfolio</h3>
+              <h3>Portfolio / Resume</h3>
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default {
   props: {
     image: {
       type: String,
-      default: require("@/assets/img/banner.jpg")
+      default: require("@/assets/img/banner2.jpg")
     }
   },
   data() {

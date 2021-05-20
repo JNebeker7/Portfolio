@@ -64,12 +64,12 @@
               </li>
 
               <md-list-item
-                href="#"
+                href="https://github.com/JNebeker7"
                 target="_blank"
                 v-if="showDownload"
               >
                 <i class="material-icons">content_paste</i>
-                <p>Documentation</p>
+                <p>Github</p>
               </md-list-item>
 
               <md-list-item
@@ -78,7 +78,7 @@
                 v-if="showDownload"
               >
                 <i class="material-icons">cloud_download</i>
-                <p>Download</p>
+                <p>Cloud</p>
               </md-list-item>
 
               <li class="md-list-item" v-else>
@@ -122,33 +122,24 @@
               </li>
 
               <md-list-item
-                href="#"
-                target="_blank"
-              >
-                <i class="fab fa-twitter"></i>
-                <p class="hidden-lg">Twitter</p>
-                <md-tooltip md-direction="bottom"
-                  >Follow us on Twitter</md-tooltip
-                >
-              </md-list-item>
-              <md-list-item
-                href="#"
+                href="https://www.facebook.com/JNebeke4"
                 target="_blank"
               >
                 <i class="fab fa-facebook-square"></i>
                 <p class="hidden-lg">Facebook</p>
                 <md-tooltip md-direction="bottom"
-                  >Like us on Facebook</md-tooltip
+                  >Facebook</md-tooltip
                 >
               </md-list-item>
               <md-list-item
-                href="#"
+                href="https://www.linkedin.com/in/jared-nebeker-a6a212118/"
                 target="_blank"
               >
-                <i class="fab fa-instagram"></i>
-                <p class="hidden-lg">Instagram</p>
+                <i class="fab fa-linkedin
+"></i>
+                <p class="hidden-lg">Linkedin</p>
                 <md-tooltip md-direction="bottom"
-                  >Follow us on Instagram</md-tooltip
+                  >Linkedin</md-tooltip
                 >
               </md-list-item>
             </md-list>
