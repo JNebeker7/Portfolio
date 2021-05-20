@@ -142,47 +142,6 @@
           </div>
         </div>
       </div>
-      
-
-
-
-          <!-- <div class="features text-center">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-info">
-                    <md-icon>chat</md-icon>
-                  </div>
-                  <h4 class="info-title">Free Chat</h4>
-                  <p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                  </p>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-success">
-                    <md-icon>verified_user</md-icon>
-                  </div>
-                  <h4 class="info-title">Verified Users</h4>
-                  <p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-danger">
-                    <md-icon>fingerprint</md-icon>
-                  </div>
-                  <h4 class="info-title">Fingerprint</h4>
-                  <p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
 
         </div>
       </div>
@@ -324,4 +283,20 @@ export default {
 .portfolio-btn:hover {
   cursor: pointer;
 }
+
+
+@font-face {
+  font-family: "Gothic" !important;
+  src: local("Gothic"), url("~@/assets/CenturyGothic.ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6, button, p {
+    font-family: "Gothic" !important;
+    // font-weight: 400 !important;
+}
+
+.title, .card-title, .info-title, .footer-brand, .footer-big h5, .footer-big h4, .media .media-heading {
+    // font-family: "Arial" !important;
+}
+
 </style>
