@@ -14,7 +14,7 @@
           </li>
           <li>
             <a href="#">
-              About
+              Test
             </a>
           </li>
         </ul>
