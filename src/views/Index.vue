@@ -14,6 +14,7 @@
     </parallax>
     <div class="main main-raised">
       <div class="section">
+
         <div class="container">
           <div class="md-layout">
             <div
@@ -23,127 +24,141 @@
             </div>
           </div>
 
+          <div class="md-layout">
+            <div class="md-layout-item md-size-50 md-small-size-100">
 
-      <div class="md-layout">
-        <div class="md-layout-item md-size-50 md-small-size-100">
+              <div class="img-comtainer">
+                <div class="box box1"></div>
+                <a href="https://karamullane.com/" target="_blank">
+                <button class="portfolio-btn" >Kara Mullane</button>
+                </a>
+              </div>
 
-          <div class="img-comtainer">
-            <div class="box box1"></div>
-            <a href="https://karamullane.com/" target="_blank">
-            <button class="portfolio-btn" >Kara Mullane</button>
-            </a>
+            </div>
+
+            <div class="md-layout-item md-size-50 md-small-size-100">
+
+              <div class="img-comtainer">
+                <div class="box box2"></div>
+                <a href="https://iconicnutritionsupplements.com/" target="_blank">
+                <button class="portfolio-btn" >Iconic Nutrition</button>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="md-layout-item md-size-50 md-small-size-100">
+
+              <div class="img-comtainer">
+                <div class="box box3"></div>
+                <a href="https://infusedreleaf.com/" target="_blank">
+                <button class="portfolio-btn" >Infused ReLeaf</button>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="md-layout-item md-size-50 md-small-size-100">
+
+              <div class="img-comtainer">
+                <div class="box box4"></div>
+                <a href="https://prettykinz.com/" target="_blank">
+                <button class="portfolio-btn" >Pretty Kinz</button>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="md-layout-item md-size-50 md-small-size-100">
+
+              <div class="img-comtainer">
+                <div class="box box5"></div>
+                <a href="https://uncledelspettreats.com/" target="_blank">
+                <button class="portfolio-btn" >Uncle Del's</button>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="md-layout-item md-size-50 md-small-size-100">
+
+              <div class="img-comtainer">
+                <div class="box box6"></div>
+                <a href="https://beewiseorganics.com/" target="_blank">
+                <button class="portfolio-btn" >Bee Wise Organics</button>
+                </a>
+              </div>
+
+            </div>
           </div>
 
-        </div>
+          <div class="md-layout">
+            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
+              <h2 class="title text-center">More websites</h2>
+                <a href="https://thereeftanning.com/" target="_blank">
+                  <button class="portfolio-btn" >The Reef Tanning</button>
+                </a>
+                <p>Client wanted this exact layout. I got to explore the wordpress divi library to make it happen. This website is neat
+                  in that you can flip the hopepage on its back and it's still indexable -- Tab module.
+                </p>
+                
+                <a href="https://prettykinz.com/" target="_blank">
+                  <button class="portfolio-btn" >Pretty Kinz</button>
+                </a>
+                <p>I like this website because it playes into the logo (theme)(logo) from header to footer. Its one of
+                  of my best.
+                </p>
+            </div>
+          </div>
+          <div class="md-layout">
+            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
+              <div class="md-layout">
+                <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
+                  <h2 class="title text-center">Example Code</h2>
+                </div>
+              </div>
 
-        <div class="md-layout-item md-size-50 md-small-size-100">
+              <div class="md-layout" style="text-align: center; margin-bottom: 25px;">
+                <div class="md-layout-item">
+                  <div class="image-wrapper">
+                    <img src="~@/assets/img/bs.png" />
+                  </div>
+                </div>
+              </div>
 
-          <div class="img-comtainer">
-            <div class="box box2"></div>
-            <a href="https://iconicnutritionsupplements.com/" target="_blank">
-            <button class="portfolio-btn" >Iconic Nutrition</button>
-            </a>
+              <div class="md-layout" style="text-align: center;">
+                <div class="md-layout-item">
+                  <div class="image-wrapper">
+                    <img src="~@/assets/img/code.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
+
+
         </div>
+          <div class="md-layout">
+            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
+              <div class="md-layout">
+                <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
+                  <h2 class="title text-center">Side projects (remote)</h2>
+                  <h4>
+                    <a href="https://www.projectdiablo2.com/">Project Diablo 2</a>
+                  </h4>
+                  <p>
+                    I'm currently working with the developers of PD2 on creating 2 new websites in Next.js (frontend) + Feathers.js (backend).
+                  </p>
+                  <p>
+                    I'm also working on the launcher for the game. The launcher is built on top of <a href="https://sciter.com/">Sciter</a> (C++ and Typescript)
+                  </p>
+                </div>
+              </div>
 
-        <div class="md-layout-item md-size-50 md-small-size-100">
-
-          <div class="img-comtainer">
-            <div class="box box3"></div>
-            <a href="https://infusedreleaf.com/" target="_blank">
-            <button class="portfolio-btn" >Infused ReLeaf</button>
-            </a>
+            </div>
           </div>
 
-        </div>
-
-        <div class="md-layout-item md-size-50 md-small-size-100">
-
-          <div class="img-comtainer">
-            <div class="box box4"></div>
-            <a href="https://prettykinz.com/" target="_blank">
-            <button class="portfolio-btn" >Pretty Kinz</button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="md-layout-item md-size-50 md-small-size-100">
-
-          <div class="img-comtainer">
-            <div class="box box5"></div>
-            <a href="https://uncledelspettreats.com/" target="_blank">
-            <button class="portfolio-btn" >Uncle Del's</button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="md-layout-item md-size-50 md-small-size-100">
-
-          <div class="img-comtainer">
-            <div class="box box6"></div>
-            <a href="https://beewiseorganics.com/" target="_blank">
-            <button class="portfolio-btn" >Bee Wise Organics</button>
-            </a>
-          </div>
-
-        </div>
-
-
-      </div>
-
-      <div class="md-layout">
-        <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
-          <h2 class="title text-center">More websites</h2>
-            <a href="https://thereeftanning.com/" target="_blank">
-              <button class="portfolio-btn" >The Reef Tanning</button>
-            </a>
-            <p>Client wanted this exact layout. I got to explore the wordpress divi library to make it happen. This website is neat
-              in that you can flip the hopepage on its back and it's still indexable -- Tab module.
-            </p>
-            
-            <a href="https://prettykinz.com/" target="_blank">
-              <button class="portfolio-btn" >Pretty Kinz</button>
-            </a>
-            <p>I like this website because it playes into the logo (theme)(logo) from header to footer. Its one of
-              of my best.
-            </p>
-
-        </div>
-        
-      </div>
-
-      <div class="md-layout">
-        <div
-          class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
-        >
-          <h2 class="title text-center">Example Code</h2>
-        </div>
-      </div>
-
-      <div class="md-layout" style="text-align: center; margin-bottom: 25px;">
-        <div class="md-layout-item">
-          <div class="image-wrapper">
-          
-
-            <img src="~@/assets/img/bs.png" />
-          </div>
-        </div>
-      </div>
-
-      <div class="md-layout" style="text-align: center;">
-        <div class="md-layout-item">
-          <div class="image-wrapper">
-          
-
-            <img src="~@/assets/img/code.png" />
-          </div>
-        </div>
-      </div>
-
-        </div>
       </div>
     </div>
   </div>
@@ -177,7 +192,8 @@ export default {
   props: {
     image: {
       type: String,
-      default: require("@/assets/img/banner2.jpg")
+      // default: require("@/assets/img/banner2.jpg")
+      default: require("@/assets/img/me.jpg")
     }
   },
   data() {
