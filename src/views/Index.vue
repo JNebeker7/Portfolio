@@ -128,7 +128,7 @@
 
               <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
                 <h4>
-                  <a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root">Fast inverse square root</a>
+                  <a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root" target="_blank">Fast inverse square root</a>
                 </h4>
                 <p>
                   This is one of my favorite examples that shows how to avoid slow divison operations with an fast algorithm.
@@ -145,15 +145,15 @@
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
               <div class="md-layout">
                 <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
-                  <h2 class="title text-center">Side projects (remote)</h2>
+                  <h2 class="title text-center">Side projects (remote) 05/2021 - Current</h2>
                   <h4>
-                    <a href="https://www.projectdiablo2.com/">Project Diablo 2</a>
+                    <a href="https://www.projectdiablo2.com/" target="_blank">Project Diablo 2</a>
                   </h4>
                   <p>
                     I'm currently working with the developers of PD2 on creating 2 new websites in Next.js (frontend) + Feathers.js (backend).
                   </p>
                   <p>
-                    I'm also working on the launcher for the game. The launcher is built on top of <a href="https://sciter.com/">Sciter</a> (C++ and Typescript)
+                    I'm also working on the launcher for the game. The launcher is built on top of <a href="https://sciter.com/" target="_blank">Sciter</a> (C++ and Typescript)
                   </p>
                 </div>
               </div>
