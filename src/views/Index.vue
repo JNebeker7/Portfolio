@@ -114,25 +114,27 @@
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
               <div class="md-layout">
                 <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
-                  <h2 class="title text-center">Example Code</h2>
+                  <h2 class="title text-center">Favorite Example Code</h2>
                 </div>
               </div>
 
               <div class="md-layout" style="text-align: center; margin-bottom: 25px;">
                 <div class="md-layout-item">
                   <div class="image-wrapper">
-                    <img src="~@/assets/img/bs.png" />
+                    <img src="~@/assets/img/doom3.jpg" />
                   </div>
                 </div>
               </div>
 
-              <div class="md-layout" style="text-align: center;">
-                <div class="md-layout-item">
-                  <div class="image-wrapper">
-                    <img src="~@/assets/img/code.png" />
-                  </div>
-                </div>
+              <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
+                <h4>
+                  <a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root">Fast inverse square root</a>
+                </h4>
+                <p>
+                  This is one of my favorite examples that shows how to avoid slow divison operations with an fast algorithm.
+                </p>
               </div>
+
             </div>
           </div>
 
